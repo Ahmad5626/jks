@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+  <style>
+    body {
+      background-image: linear-gradient(127deg, #feedf4 0%, #fcf0e3 100%);
+    }
+
+    .header,
+    .orange {
+      background-color: orange;
+    }
+
+    .footer {
+      background-color: orange;
+    }
+  </style>
+</head>
+
+<body class="bg-white h-full">
+  <header class="header p-4 text-white flex justify-between items-center gap-20">
+    <div class=" sm:w-1/5">
+      <img src="https://jksevasansthan.com/images/nav-logo.png" class="w-full" alt="">
+    </div>
+
+    <nav class="container mx-auto flex justify-evenly align-center hidden sm:flex">
+      <a href="./index.html" class="text-xl ">Home</a>
+      <a href="./about.html" class="text-xl ">About</a>
+      <a href="./notice.html" class="text-xl">Notice</a>
+      <a href="./gallery.html" class="text-xl">Gallery</a>
+      <a href="./policy.html" class="text-xl"> Privacy Policy</a>
+      <a href="./contact.html" class="text-xl">contact us</a>
+      <!-- <a href="" class="text-xl">Data Page</a> -->
+      <!-- <a href="sahyog-list.php" class="text-xl">Sahyog List</a>
+      <a href="contact.php" class="text-xl">Contact</a>
+      <a href="registrations.php" class="text-xl">Register</a> -->
+    </nav>
+
+    <div class="drawer sm:hidden text-center">
+      <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content">
+        <!-- Page content here -->
+        <label for="my-drawer" class="btn  drawer-button"><i class="fa-solid fa-bars text-white"></i></label>
+      </div>
+      <div class="drawer-side">
+        <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+        <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+          <!-- Sidebar content here -->
+      <li><a href="./index.html" class="text-xl ">Home</a></li>    
+       <li><a href="./about.html" class="text-xl ">About</a></li>   
+       <li><a href="./notice.html" class="text-xl">Notice</a></li>   
+      <li><a href="./gallery.html" class="text-xl">Gallery</a></li>    
+      <li><a href="./policy.html" class="text-xl"> Privacy Policy</a></li>
+          <li><a href="./contact.html" class="text-xl">contact us</a></li>
+          
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+
+  <!-- slider  -->
+
+
+
+  <!-- slider end -->
+  <div class=" w-[90%] lg:w-[80%] md:w-[85%] mx-auto flex flex-col lg:flex-row md:flex-row justify-between gap-10 mt-4">
+    <div
+      class="bg-white border w-[100%] sm:w-[48%] p-4 rounded-md border-black hover:scale-105 hover:shadow-xl duration-200">
+      <div class="flex justify-between align-center text-[orange]">
+        <div class="">
+          <i class="fa-solid fa-bell"></i>
+          <span>Notice</span>
+        </div>
+        <div class="">
+          <i class="fa-solid fa-clock"></i>
+          <span>2002-05-22</span>
+        </div>
+      </div>
+      <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+        adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+      <div class="flex justify-between align-center text-[orange]">
+        <div class="">
+          <i class="fa-solid fa-bell"></i>
+          <span>Vivek</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div
+      class="bg-white border w-[100%] sm:w-[48%] p-4 rounded-md border-black hover:scale-105 hover:shadow-xl duration-200">
+      <div class="flex justify-between align-center text-[orange]">
+        <div class="">
+          <i class="fa-solid fa-bell"></i>
+          <span>Notice</span>
+        </div>
+        <div class="">
+          <i class="fa-solid fa-clock"></i>
+          <span>2002-05-22</span>
+        </div>
+      </div>
+      <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+        adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+      <div class="flex justify-between align-center text-[orange]">
+        <div class="">
+          <i class="fa-solid fa-bell"></i>
+          <span>Vivek</span>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  
+
+  
+
+    
+    <footer class="footer p-4 text-white text-center">
+      <p>&copy; 2024 My Website</p>
+    </footer>
+    <script src="app.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <script>
+      $('.your-class').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: $('.prev-arrow'),
+        nextArrow: $('.next-arrow'),
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      $('.your-class').slick({
+        prevArrow: $('.prev-arrow'),
+        nextArrow: $('.next-arrow'),
+      });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/policy.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+  <style>
+    body {
+      background-image: linear-gradient(127deg, #feedf4 0%, #fcf0e3 100%);
+    }
+
+    .header,
+    .orange {
+      background-color: orange;
+    }
+
+    .footer {
+      background-color: orange;
+    }
+  </style>
+</head>
+
+<body class="bg-white">
+    <header class="header p-4 text-white flex justify-between items-center gap-20">
+        <div class=" sm:w-1/5">
+          <img src="https://jksevasansthan.com/images/nav-logo.png" class="w-full" alt="">
+        </div>
+    
+        <nav class="container mx-auto flex justify-evenly align-center hidden sm:flex">
+          <a href="./index.html" class="text-xl ">Home</a>
+          <a href="./about.html" class="text-xl ">About</a>
+          <a href="./notice.html" class="text-xl">Notice</a>
+          <a href="./gallery.html" class="text-xl">Gallery</a>
+          <a href="./policy.html" class="text-xl"> Privacy Policy</a>
+          <a href="./contact.html" class="text-xl">contact us</a>
+          <!-- <a href="" class="text-xl">Data Page</a> -->
+          <!-- <a href="sahyog-list.php" class="text-xl">Sahyog List</a>
+          <a href="contact.php" class="text-xl">Contact</a>
+          <a href="registrations.php" class="text-xl">Register</a> -->
+        </nav>
+    
+        <div class="drawer sm:hidden text-center">
+          <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+          <div class="drawer-content">
+            <!-- Page content here -->
+            <label for="my-drawer" class="btn  drawer-button"><i class="fa-solid fa-bars text-white"></i></label>
+          </div>
+          <div class="drawer-side">
+            <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+            <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+              <!-- Sidebar content here -->
+          <li><a href="./index.html" class="text-xl ">Home</a></li>    
+           <li><a href="./about.html" class="text-xl ">About</a></li>   
+           <li><a href="./notice.html" class="text-xl">Notice</a></li>   
+          <li><a href="./gallery.html" class="text-xl">Gallery</a></li>    
+          <li><a href="./policy.html" class="text-xl"> Privacy Policy</a></li>
+              <li><a href="./contact.html" class="text-xl">contact us</a></li>
+              
+            </ul>
+          </div>
+        </div>
+    
+      </header>
+
+
+  <!-- slider  -->
+
+
+  <section class="faq-section">
+    <div class="container">
+        <div class="row">
+            <!-- ***** FAQ Start ***** -->
+            <div class="col-md-6 offset-md-3">
+
+                <div class="faq-title text-center pb-3">
+                    <h2>Privacy Policy</h2>
+                </div>
+            </div>
+            <div class="col-md-6 offset-md-3">
+                <div class="faq" id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="faqHeading-1">
+                            
+                        </div>
+                        <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <p>जन कल्याण सेवा ग्रुप (JKSG) की स्थापना जन कल्याण सेवा संस्थान द्वारा की गई है l जन कल्याण सेवा ग्रुप (JKSG) से जुड़ने के लिए ऐसे सभी लोग जो कि 18 वर्ष से 70 वर्ष की आयु के बीच है स्वेच्छा से समस्त नियम एवं शर्तों से सहमति के उपरांत वेबसाइट www.jksevasansthan.com के माध्यम से रजिस्ट्रेशन करके जुड़ सकते हैं।
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="faqHeading-2">
+                            <div class="mb-0">
+                                <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2"
+                                    data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                    <span class="badge">1</span> नियम व शर्तें:
+                                </h5>
+                            </div>
+                        </div>
+                        <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <p> जन कल्याण सेवा ग्रुप (JKSG) से जुड़ने हेतु वार्षिक सदस्यता ₹300/- तथा आजीवन सदस्यता शुल्क ₹3100/- देना अनिवार्य है  l किसी भी व्यक्ति को बाध्य करके जन कल्याण सेवा ग्रुप (JKSG) से नही जोड़ा जाता बल्कि व्यक्ति अपनी स्वेच्छा से जुड़त सकता हैं।
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-3">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                        <span class="badge">2</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>जन कल्याण सेवा ग्रुप (JKSG) से जुड़ने हेतु आवश्यक सूचना संबंधी फ़ार्म भरकर रजिस्ट्रेशन किया जाना अनिवार्य है, साथ ही JKSG का Telegram/WhatsApp पर आधिकारिक ग्रुप बनाया गया है, जिसपर समय समय पर सहयोग या नियम या अन्य महत्वपूर्ण सूचनाएं प्रदान की जाती रहती हैं। इसके साथ ही आवश्यकता पड़ने पर महत्वपूर्ण निर्णय लेने संबंधी  सुझाव आदि के दृष्टिगत ग्रुप के सदस्यों को भी विचार रखने का अवसर दिया जाता है।</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">3</span> 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>JKSG का सदस्य बनने के साथ ही महत्वपूर्ण सूचनाओं से अपडेट रहने हेतु Telegram/WhatsApp ग्रुप को सप्ताह में कम से कम 1 बार देखने और अपडेट रहने की भी बाध्यता रखी गयी है। कोई भी सदस्य अगर Telegram/WhatsApp ग्रुप नियमतः नहीं देखता और संबंधित सूचनाएं यदि नहीं प्राप्त कर पाता है तो इसके लिए JKSG से संबंधित सदस्य स्वयं जिम्मेदार होगा l
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">4</span> 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>JKSG द्वारा हेल्पलाइन नंबर 9236585656 सदस्यों की सुविधा हेतु जारी किया गया है, जिस पर Call/WhatsApp के माध्यम से जानकारी का आदान प्रदान किया जा सकता है। कोई भी सदस्य इस नम्बर पर कॉल या मैसेज करके सूचना ले और दे सकता है।
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">5</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>किसी भी सदस्य की मृत्यु हो जाने पर उसकी सूचना उसके परिवार या नॉमिनी के द्वारा संस्था के Telegram/WhatsApp ग्रुप पर डालने के साथ-साथ मोबाइल नंबर 9236585656 पर कॉल करके  सूचना देना अनिवार्य है, ताकि  मृतक के नॉमिनी के बैंक खाते में समय के अंदर ही सहयोग राशि पहुंच जाए l
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">6</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>JKSG कोर टीम को सहयोग के आह्वान हेतु अपने स्वविवेक का भी इस्तेमाल करके निर्णय लेने को भी स्वतंत्र होगी, वैधानिकता या किसी भी प्रकार के मामलों में जहां उचित समझेगी अपने स्तर से परीक्षण करने को स्वतंत्र होगी। कोई भी सदस्य / नॉमिनी सहयोग प्राप्त करने हेतु कानूनी दावा/अधिकार नहीं कर सकेगा, बल्कि संस्था नैतिकरूप से सहयोग करवाने का प्रयास करेगी।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">7</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>JKSG दिवंगत सदस्यों के एक से अधिक नॉमिनी होने की स्थिति में दूसरे नॉमिनी को सहयोग सुनिश्चित करने हेतु स्वविवेक एवं स्वतः हस्तक्षेप करने को स्वतंत्र होगी, जिसपर लाभार्थी द्वारा किसी भी प्रकार का कानूनी या गैर कानूनी कदम नहीं उठाया जा सकेगा। लाभार्थी या उसके परिवार द्वारा संस्था के प्रति मिथ्या आरोप लगाने / भ्रम फैलाने / दुष्प्रचार करने या दुर्व्यवहार करने पर सहयोग की गई राशि वापस करवाकर किसी अन्य दिवंगत परिवार को हस्तांतरित करवाने का अधिकार रखती है। ऐसे मामलों में टीम कानूनी कार्यवाही भी करने के लिए स्वतंत्र होगी।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">8</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p> नॉमिनी के मामले में प्रथम नॉमिनी को 75% तथा दूसरे को 25% दिए जाने का प्रावधान किया गया है। 
+                                        फिर भी एहतियात के तौर पर प्रथम नॉमिनी को कितना-प्रतिशत मदद दिया जाएऔर द्वितीय नामिनी को कितना प्रतिशत मदद किया जाए JKSG की कोर कमेटी अपने निर्णय के आधार पर मदद करने का अधिकार अपने पास रखती है |
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">9</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>नॉमिनी सम्बन्धी विवाद की स्थिति में JKSG की कोर टीम परीक्षणोपरांत निर्णय लेने और सहयोग करवाने हेतु स्वतंत्र होगी।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">10</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>JKSG सहयोग राशि सीधे दिवंगत परिवारों के नॉमिनी के खाते में करवाती है इसलिए JKSG पर किसी भी प्रकार की न्यायिक चुनौती देने का अधिकार किसी भी व्यक्ति / सदस्य के पास नहीं होगा।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">11</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>सहयोग के दौरान कूटरचित/फर्जी रसीद Uploading या नियमो के विपरीत कार्य करने वाले सदस्यों के बारे में JKSG कोर टीम निर्णय लेने की अधिकारी होगी। ऐसे सदस्यो की सदस्यता भी समाप्त की जा सकेगी और लाभ से भी वंचित किया जा सकेगा।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">12</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>लॉकिंग पीरियड 21 दिन का होगा l 21 दिन के लॉक इन पीरियड से तात्पर्य यह है कि जैसे यदि कोई सदस्य किसी महिने की 01 तारीख  को रजिस्ट्रेशन किया, और उसकी मृत्यु किसी कारण उसी महिने में 21 तारिख को हो जाती है तो मदद लेने का भागीदार नहीं होगा यदि उसकी मृत्यु 21 तारीख की रात्रि 12:00 बजे के बाद होती है तो ही वह मदद लेने का भागीदार हो सकता है l फिर भी विशेष परिस्थिति में ऐसी दुर्घटना में मृतक के नामीनी को मदद दी जाए या नहीं इसके लिए JKSG निर्णय लेने का अधिकार स्वयं अपने पास रखती है इसके लिए ग्रुप का कोई भी सदस्य जोर जबरदस्ती नहीं कर सकता या न ही संस्था की टीम के ऊपर कोई दबाव डाल सकता है
+                                        मदद की तारीख हर महीने की 10 तारीख से 25 तारीख तक होगी l
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">13</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>यदि किसी सदस्य को गंभीर बीमारी है और उसकी मृत्यु किसी अन्य कारणो से होती है तो उसे अन्य कारण का संतोषजनक साक्ष्य प्रस्तुत करना अनिवार्य होगा। ऐसे प्रकरणो में JKSG कोर टीम/संस्थापक मंडल निर्णय लेने के लिए स्वतंत्र होगा।
+
+                                        <br>
+                                        हार्ट अटैक और कार्डियक अरेस्ट दोनो अलग प्रकार के प्रकरण होते हैं अतः गंभीर बीमारी के इलाज के दौरान हुए कार्डिक अरेस्ट को हार्ट अटैक की श्रेणी में नही माना जायेगा। इसलिए तत्संबंधी प्रकरणों में विषयानुरूप और परिस्थिति के अनुरूप निर्णय लिए जायेगे।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">14</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>किसी भी सदस्य को संस्था से जुड़ने के बाद 6 महीने तक लगातार सहयोग करना अनिवार्य होता है इसके बाद उसे 30% की छूट दी जाती है 30% की छूट का मतलब है कि सदस्य सदस्यता ग्रहण करने के 6 महीने के बाद से लेकर मृत्यु होने के दिनांक तक यदि 70% लोगों की मदद की है तो भी उसके नामिनी को इस सहयोग का लाभ मिल सकता है l
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">15</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p> सदस्यों द्वारा अपना सहयोग सीधा मृतक के नॉमिनी को दिया जाता है अतः आपके द्वारा दिए गए सहयोग के बदले सहयोग प्राप्त करने का कोई कानूनी अधिकार नहीं होगा, यह पूरी तरह सदस्यों की मर्जी पर निर्भर रहेगा,  क्योंकि टीम सिर्फ सहयोग की अपील करती है  अतः किसी तरह की देनदारी के लिए कानूनी अधिकार मान्य नहीं होगा। कोई तथ्य छुपा कर या बिना पात्रता पूरी किए बिना अगर कोई सदस्य संस्था से जुड़ जाता है और सहयोग कर देता है तो उसका दावा मान्य नहीं होगा।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">16</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>किसी भी सदस्य की मृत्यु होने के बाद सदस्य के मृतक अवस्था की तात्कालिक फोटो संस्था के व्हाट्सएप पर भेजना अनिवार्य होगा ताकि संस्था के टीम को मृतक का सही-सही पता लगाने में अच्छा सहयोग मिल सकेl यदि कोई जालसाजी करके फोटो Edit करके भेजता या ऐसा घृणित कार्य करता है तो उसकी सदस्यता हमेशा के लिए समाप्त कर दी जाएगी l
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">17</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>किसी भी सदस्य की मृत्यु होने के बाद सदस्य के मृतक अवस्था की तात्कालिक फोटो संस्था के व्हाट्सएप पर भेजना अनिवार्य होगा ताकि संस्था के टीम को मृतक का सही-सही पता लगाने में अच्छा सहयोग मिल सकेl यदि कोई जालसाजी करके फोटो Edit (वास्तविक फ़ोटो के साथ छेड़छाड़) करके भेजता या ऐसा घृणित कार्य करता है तो उसकी सदस्यता हमेशा के लिए समाप्त कर दी जाएगी l
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">नोट :-</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>समय और आवश्यकता को देखते हुए JKSG के किसी भी नियमो में कभी भी संशोधन/परिवर्तन किया जा सकेगा।
+                                        यह अधिकार JKSG के कोर टीम के पास सुरक्षित होगा |
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+  <!-- slider end -->
+  
+
+
+
+  
+
+   
+    <footer class="footer p-4 text-white text-center">
+      <p>&copy; 2024 My Website</p>
+    </footer>
+    <script src="app.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <script>
+      $('.your-class').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: $('.prev-arrow'),
+        nextArrow: $('.next-arrow'),
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      $('.your-class').slick({
+        prevArrow: $('.prev-arrow'),
+        nextArrow: $('.next-arrow'),
+      });
+    </script>
+</body>
+
+</html>
